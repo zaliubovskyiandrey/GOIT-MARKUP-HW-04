@@ -345,9 +345,12 @@ display: flex;
     letter-spacing: 0.02em;
     color: var(--text-color);
     text-align: center;
+    margin-bottom: 8px;
+
 }
 .container-name-position{
     padding: 32px 16px;
+    
 }
 
 /* Footer section */
@@ -455,4 +458,47 @@ display: flex;
     background-position: center;
     background-size: cover;
 
+}
+/* Socials icons */
+.socials{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+} 
+
+.socials-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 40px; height: 40px;
+    background-color: var(--Primary-Brand);
+    border-radius: 50%;
+}
+.link {
+}
+.socials-item{
+    
+}
+.social-icon {
+    fill:var(--Light)
+   
+}
+/* Customers */
+.Customers {
+}
+
+.Customers-icons {
+}
+.list {
+}
+.Customers-item {
+}
+.Customers-link {
+    
+}
+.link {
+}
+.social-icon {
 }
