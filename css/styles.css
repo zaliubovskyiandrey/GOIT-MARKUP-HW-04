@@ -512,7 +512,7 @@ display: flex;
 }
 .socials-link:hover,
 .socials-link:focus{
-    background-color: #31d0aa;
+    background-color: #404bbf;
     
 }
 
@@ -520,10 +520,8 @@ display: flex;
 .social-icon {
     fill:var(--Light)
    }
-   /* .social-icon:hover,
-   .social-icon:focus{
-    background-color: #404bbf;
-   } */
+   
+   }
 /* Customers */
 .customers {
  padding-top:120px; 
