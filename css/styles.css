@@ -578,3 +578,30 @@ Customers
 }
 .social-icon {
 } */
+/* .Social-media{
+
+} */
+/* Footer */
+.container-footer{ 
+    display: flex;
+    width:1158px;
+    margin-left: auto;
+    margin-right: auto;
+    outline:2px solid red;
+    outline-offset:-2 px;
+    padding-left: 15px;
+    padding-right: 15px; 
+    
+}
+.webstudio-footer{
+     margin-right: 120px;
+}
+/* .social-title-footer{
+
+} */
+.socials-item-footer{
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+}
+   
