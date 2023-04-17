@@ -512,7 +512,7 @@ display: flex;
 }
 .socials-link:hover,
 .socials-link:focus{
-    background-color: #404bbf;
+    background-color: #31d0aa;
     
 }
 
@@ -615,4 +615,18 @@ margin-bottom: 16px;
         height: 40px;
     }
     
-   
+   .socials-link-footer {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-content: center;
+       align-items: center;
+       width: 40px;
+       height: 40px;
+       background-color: var(--Primary-Brand);
+       border-radius: 50%;
+   }
+
+   .socials-link-footer:hover,
+   .socials-link-footer:focus {
+       background-color: #31d0aa;}
