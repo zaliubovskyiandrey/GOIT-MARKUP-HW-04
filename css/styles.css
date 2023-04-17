@@ -335,7 +335,8 @@ display: flex;
 /* Section 3 */
 .main-team {
     background: var(--Light);
-    padding: 120px 0;
+    padding: 32px 0;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team {
@@ -504,7 +505,7 @@ display: flex;
 }
 .socials-link:hover,
 .socials-link:focus{
-    background-color: var(--Success);
+    background-color: #404bbf;;
     
 }
 /* .link {
