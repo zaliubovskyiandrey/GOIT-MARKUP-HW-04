@@ -258,6 +258,10 @@ display: flex;
 }
 .advantages-container{
     padding: 120px 0 120px;
+    max-width: 1128px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 .advantages{
     flex-basis: calc((100% - 3 * 24px) / 4)
@@ -285,6 +289,22 @@ display: flex;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--text-color);
+}
+
+.adventeges-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 264px;
+    height: 112px;   
+    border: 1px solid #8E8F99;
+    padding right: 24px;
+    border-radius: 2px;
+    margin-bottom:8px;
+
 }
 
 /* Section 2 */
@@ -373,6 +393,7 @@ display: flex;
 }
 .footer-container{
     padding: 100px 0;
+    margin-top: 120px;
 }
 .link-footer{
     display: inline-block; 
@@ -476,6 +497,11 @@ display: flex;
     background-color: var(--Primary-Brand);
     border-radius: 50%;
 }
+.socials-link:hover,
+.socials-link:focus{
+    background-color: var(--Success);
+    
+}
 .link {
 }
 .socials-item{
@@ -486,18 +512,63 @@ display: flex;
    
 }
 /* Customers */
+Customers
 .Customers {
+    padding: 120px 0;
+    
 }
-
+.Customers-container{
+    width:1128px;
+    margin-left: auto;
+    margin-right: auto;
+    outline:2px solid red;
+    outline-offset:-2 px;
+    
+}
+.Company{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--Dark);
+    margin-bottom: 72px;
+}
 .Customers-icons {
+  fill:#8E8F99;
+   
 }
 .list {
 }
 .Customers-item {
+   
 }
 .Customers-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 168px;
+    height: 88px;   
+    border: 1px solid #8E8F99;
+    padding right: 24px;
+    border-radius: 2px;
+   
+}
+.Customers-link:hover,
+.Customers-link:focus{
+    border-color: #0b1eee;
+}
+.icon-customers{
     
 }
+.Customers-icons:hover,
+.Customers-icons:focus{
+   fill: var(--Pressed-state)}
+
+
 .link {
 }
 .social-icon {
