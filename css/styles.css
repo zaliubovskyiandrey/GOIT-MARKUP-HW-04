@@ -542,7 +542,8 @@ Customers
 }
 .customers-icons {
   fill:#8E8F99;
-   
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* .Customers-item {
