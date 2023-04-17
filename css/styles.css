@@ -64,6 +64,8 @@ img{
     gap: 40px;
     display: flex;
     align-items: center;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    
 }
 .link {
     text-decoration: none;
@@ -88,6 +90,7 @@ img{
 .header-container {
     display:flex;
     align-items: center;
+    
 }
 .list-nav{
     display: flex;
@@ -301,7 +304,7 @@ display: flex;
     width: 264px;
     height: 112px;   
     border: 1px solid #8E8F99;
-    padding right: 24px;
+    padding-right: 24px;
     border-radius: 2px;
     margin-bottom:8px;
 
@@ -474,7 +477,7 @@ display: flex;
     margin-right: auto;
     outline: 1px solid rgb(19, 17, 17);
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),
-    url("../images/overlay/people-office\ 1\ .jpg");
+    url("../images/overlay/img-name.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -553,10 +556,10 @@ Customers
     width: 168px;
     height: 88px;   
     border: 1px solid #8E8F99;
-    padding right: 24px;
+    padding-right:24px;
     border-radius: 2px;
-   
-}
+   }
+
 .Customers-link:hover,
 .Customers-link:focus{
     border-color: #0b1eee;
