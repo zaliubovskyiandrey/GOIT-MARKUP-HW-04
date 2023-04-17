@@ -520,7 +520,8 @@ display: flex;
 /* Customers */
 Customers
 .customers {
-    padding: 120px 0;
+    padding-top: 120px; 
+ padding-bottom: 120px; 
     
 }
 .customers-container{
@@ -533,7 +534,7 @@ Customers
 }
 .company{
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 1.1;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -541,14 +542,14 @@ Customers
     margin-bottom: 72px;
 }
 .customers-icons {
-  fill:#8E8F99;
+  fill:currentColor;
   margin-right: auto;
   margin-left: auto;
 }
 
-/* .Customers-item {
-   
-} */
+.Customers-item {
+    width: calc((100% - 120px) / 6);
+}
 .customers-link {
     display: flex;
     flex-direction: column;
@@ -556,16 +557,15 @@ Customers
     align-content: center;
     align-items: center;
     box-sizing: border-box;
-    width: 168px;
     height: 88px;   
     border: 1px solid #8E8F99;
     padding-right:24px;
-    border-radius: 2px;
-   }
-
+    border-radius: 4px;
+    color: #8e8f99;
+}
 .customers-link:hover,
 .customers-link:focus{
-    border-color: #0b1eee;
+    border-color: #404bbf;
 }
 /* .icon-customers{
     
@@ -585,9 +585,9 @@ Customers
 /* Footer */
 .container-footer{ 
     display: flex;
+    align-items: baseline;
     width:1158px;
-    margin-left: auto;
-    margin-right: auto;
+    gap:120px;
     outline:2px solid red;
     outline-offset:-2 px;
     padding-left: 15px;
@@ -598,19 +598,20 @@ Customers
      margin-right: 120px;
 }
 .social-title-footer{
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 24px;
-/* identical to box height, or 150% */
 letter-spacing: 0.02em;
-/* WHITE */
 color: #FFFFFF;
+margin-bottom: 16px;
+
 }
 .socials-item-footer{
     display: flex;
-    align-items: baseline;
     gap: 16px;
-}
+    }
+    .social-media-title{
+        width: 40px;
+        height: 40px;
+    }
    
