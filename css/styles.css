@@ -455,7 +455,7 @@ display: flex;
         display: block;
     }
     .link-portfolio:hover,
-    .link-portfolio:focus{
+    .link-portfolio:focus {
         box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     }
 
@@ -511,7 +511,7 @@ display: flex;
 }
 .socials-link:hover,
 .socials-link:focus{
-    background-color: #404bbf;;
+    background-color: #31d0aa;
     
 }
 /* .link {
@@ -623,10 +623,7 @@ margin-bottom: 16px;
         width: 40px;
         height: 40px;
     }
-    .social-media-title:hover,
-    .social-media-title:focus{
-        background-color: #31d0aa;
-    }
+    
    /* .social-icon{
     
    } */
