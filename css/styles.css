@@ -576,10 +576,10 @@ height: 40px;
     outline-offset:-2 px;
     padding-left: 15px;
     padding-right: 15px; 
-    
+    gap: 120px;
 }
 .webstudio-footer{
-     margin-right: 120px;
+     /* margin-right: 120px; */
 }
 .social-title-footer{
 font-weight: 500;
